@@ -8,3 +8,12 @@ document.getElementById('calc').onclick = function(){
 	else if (flat>=49 && flat <=90) alert ('Third');
 	else alert('Erorr. Flat does not exists.');
 }
+
+// Es9 - array includes learning
+let arr = [1,2,3,4,5];
+
+if (arr.includes(45)) {
+    console.log('Yes!')
+  }else {
+    console.log('Not found');
+  }
